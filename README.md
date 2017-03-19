@@ -1,0 +1,2 @@
+# Keyframe-Interpolation
+In this project 4 interpolation algorithms have been implemented, including Linear interpolation for Euler angles, Spherical Linear(SLERP) interpolation for quaternions, Bezier Spherical Linear interpolation for quaternions and Bezier interpolation for Euler angles. This report contains the evaluations of all these 4 techniques besides their drawbacks and advantages. In the third part of this report I compared four methods using graphs and video screenshots.
