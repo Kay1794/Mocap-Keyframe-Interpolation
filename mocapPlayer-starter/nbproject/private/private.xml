@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <code-assistance-data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <code-model-enabled>true</code-model-enabled>
+    </code-assistance-data>
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>0</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/yiqizhong/code/CSCI520/csci520-assignment2-startercode-2/mocapPlayer-starter/interpolator.cpp</file>
+            <file>file:/Users/yiqizhong/code/CSCI520/csci520-assignment2-startercode-2/mocapPlayer-starter/quaternion.cpp</file>
+            <file>file:/Users/yiqizhong/code/CSCI520/csci520-assignment2-startercode-2/mocapPlayer-starter/interpolate.cpp</file>
+            <file>file:/Users/yiqizhong/code/CSCI520/csci520-assignment2-startercode-2/mocapPlayer-starter/mocapPlayer.cpp</file>
+            <file>file:/Users/yiqizhong/code/CSCI520/csci520-assignment2-startercode-2/mocapPlayer-starter/quaternion.h</file>
+            <file>file:/Users/yiqizhong/code/CSCI520/csci520-assignment2-startercode-2/mocapPlayer-starter/posture.h</file>
+        </group>
+    </open-files>
+</project-private>

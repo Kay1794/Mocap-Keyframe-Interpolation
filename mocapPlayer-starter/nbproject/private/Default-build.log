@@ -1,0 +1,72 @@
+g++ -c -O2 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1/png -I../fltk-1.3.4-1/jpeg -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_THREAD_SAFE -D_REENTRANT -Wall -I. -g displaySkeleton.cpp
+displaySkeleton.cpp:67:3: warning: 'GLUquadricObj' is deprecated: first deprecated in macOS 10.9 [-Wdeprecated-declarations]
+  GLUquadricObj *qobj;
+  ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:224:26: note: 'GLUquadricObj' has been explicitly marked deprecated here
+typedef class GLUquadric GLUquadricObj OPENGL_DEPRECATED(10_0, 10_9);
+                         ^
+displaySkeleton.cpp:70:8: warning: 'gluNewQuadric' is deprecated: first deprecated in macOS 10.9 [-Wdeprecated-declarations]
+  qobj=gluNewQuadric();
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:267:20: note: 'gluNewQuadric' has been explicitly marked deprecated here
+extern GLUquadric* gluNewQuadric (void) OPENGL_DEPRECATED(10_0, 10_9);
+                   ^
+displaySkeleton.cpp:72:3: warning: 'gluQuadricDrawStyle' is deprecated: first deprecated in macOS 10.9 [-Wdeprecated-declarations]
+  gluQuadricDrawStyle(qobj, (GLenum) GLU_FILL);
+  ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:283:13: note: 'gluQuadricDrawStyle' has been explicitly marked deprecated here
+extern void gluQuadricDrawStyle (GLUquadric* quad, GLenum draw) OPENGL_DEPRECATED(10_0, 10_9);
+            ^
+displaySkeleton.cpp:73:3: warning: 'gluQuadricNormals' is deprecated: first deprecated in macOS 10.9 [-Wdeprecated-declarations]
+  gluQuadricNormals(qobj, (GLenum) GLU_SMOOTH);
+  ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:284:13: note: 'gluQuadricNormals' has been explicitly marked deprecated here
+extern void gluQuadricNormals (GLUquadric* quad, GLenum normal) OPENGL_DEPRECATED(10_0, 10_9);
+            ^
+displaySkeleton.cpp:104:5: warning: 'gluSphere' is deprecated: first deprecated in macOS 10.9 [-Wdeprecated-declarations]
+    gluSphere(qobj, jointRadius, 20, 20);
+    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:288:13: note: 'gluSphere' has been explicitly marked deprecated here
+extern void gluSphere (GLUquadric* quad, GLdouble radius, GLint slices, GLint stacks) OPENGL_DEPRECATED(10_0, 10_9);
+            ^
+displaySkeleton.cpp:113:5: warning: 'gluCylinder' is deprecated: first deprecated in macOS 10.9 [-Wdeprecated-declarations]
+    gluCylinder(qobj, boneRadius, boneRadius, bone[j].length, 20, 20);
+    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:251:13: note: 'gluCylinder' has been explicitly marked deprecated here
+extern void gluCylinder (GLUquadric* quad, GLdouble base, GLdouble top, GLdouble height, GLint slices, GLint stacks) OPENGL_DEPRECATED(10_0, 10_9);
+            ^
+displaySkeleton.cpp:116:5: warning: 'gluDisk' is deprecated: first deprecated in macOS 10.9 [-Wdeprecated-declarations]
+    gluDisk(qobj, 0.0, boneRadius, 20, 20);
+    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:255:13: note: 'gluDisk' has been explicitly marked deprecated here
+extern void gluDisk (GLUquadric* quad, GLdouble inner, GLdouble outer, GLint slices, GLint loops) OPENGL_DEPRECATED(10_0, 10_9);
+            ^
+displaySkeleton.cpp:119:5: warning: 'gluDisk' is deprecated: first deprecated in macOS 10.9 [-Wdeprecated-declarations]
+    gluDisk(qobj, 0.0, boneRadius, 20, 20);
+    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:255:13: note: 'gluDisk' has been explicitly marked deprecated here
+extern void gluDisk (GLUquadric* quad, GLdouble inner, GLdouble outer, GLint slices, GLint loops) OPENGL_DEPRECATED(10_0, 10_9);
+            ^
+8 warnings generated.
+g++ -c -O2 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1/png -I../fltk-1.3.4-1/jpeg -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_THREAD_SAFE -D_REENTRANT -Wall -I. -g interface.cpp
+g++ -c -O2 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1/png -I../fltk-1.3.4-1/jpeg -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_THREAD_SAFE -D_REENTRANT -Wall -I. -g motion.cpp
+g++ -c -O2 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1/png -I../fltk-1.3.4-1/jpeg -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_THREAD_SAFE -D_REENTRANT -Wall -I. -g posture.cpp
+g++ -c -O2 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1/png -I../fltk-1.3.4-1/jpeg -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_THREAD_SAFE -D_REENTRANT -Wall -I. -g skeleton.cpp
+g++ -c -O2 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1/png -I../fltk-1.3.4-1/jpeg -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_THREAD_SAFE -D_REENTRANT -Wall -I. -g transform.cpp
+g++ -c -O2 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1/png -I../fltk-1.3.4-1/jpeg -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_THREAD_SAFE -D_REENTRANT -Wall -I. -g vector.cpp
+g++ -c -O2 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1/png -I../fltk-1.3.4-1/jpeg -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_THREAD_SAFE -D_REENTRANT -Wall -I. -g mocapPlayer.cpp
+mocapPlayer.cpp:737:3: warning: 'gluPerspective' is deprecated: first deprecated in macOS 10.9 - "Use GLKMatrix4MakePerspective" [-Wdeprecated-declarations]
+  gluPerspective(45.0,(double) viewport.width/viewport.height, 0.01, 200.0); 
+  ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:278:13: note: 'gluPerspective' has been explicitly marked deprecated here
+extern void gluPerspective (GLdouble fovy, GLdouble aspect, GLdouble zNear, GLdouble zFar) OPENGL_DEPRECATED_MSG(10_0, 10_9, "Use GLKMatrix4MakePerspective");
+            ^
+1 warning generated.
+g++ -c -O2 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1/png -I../fltk-1.3.4-1/jpeg -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_THREAD_SAFE -D_REENTRANT -Wall -I. -g ppm.cpp
+g++ -c -O2 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1/png -I../fltk-1.3.4-1/jpeg -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_THREAD_SAFE -D_REENTRANT -Wall -I. -g pic.cpp
+g++ -c -O2 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1/png -I../fltk-1.3.4-1/jpeg -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_THREAD_SAFE -D_REENTRANT -Wall -I. -g performanceCounter.cpp
+g++ displaySkeleton.o interface.o motion.o posture.o skeleton.o transform.o vector.o mocapPlayer.o ppm.o pic.o performanceCounter.o -O2 ../fltk-1.3.4-1/lib/libfltk_images.a ../fltk-1.3.4-1/lib/libfltk_png.a -lz ../fltk-1.3.4-1/lib/libfltk_jpeg.a ../fltk-1.3.4-1/lib/libfltk_gl.a -framework OpenGL ../fltk-1.3.4-1/lib/libfltk.a -lpthread -framework Cocoa -o mocapPlayer
+g++ -c -O2 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1/png -I../fltk-1.3.4-1/jpeg -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_THREAD_SAFE -D_REENTRANT -Wall -I. -g interpolator.cpp
+g++ -c -O2 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1/png -I../fltk-1.3.4-1/jpeg -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_THREAD_SAFE -D_REENTRANT -Wall -I. -g quaternion.cpp
+g++ -c -O2 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1 -I../fltk-1.3.4-1/png -I../fltk-1.3.4-1/jpeg -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_THREAD_SAFE -D_REENTRANT -Wall -I. -g interpolate.cpp
+g++ motion.o posture.o skeleton.o transform.o vector.o interpolator.o quaternion.o interpolate.o -O2 ../fltk-1.3.4-1/lib/libfltk_images.a ../fltk-1.3.4-1/lib/libfltk_png.a -lz ../fltk-1.3.4-1/lib/libfltk_jpeg.a ../fltk-1.3.4-1/lib/libfltk_gl.a -framework OpenGL ../fltk-1.3.4-1/lib/libfltk.a -lpthread -framework Cocoa -o interpolate
